@@ -22,7 +22,7 @@ document.getElementById('button-login').addEventListener('click', function(event
             // step -5: allow user to use the website
 
             console.log('you are logged in');
-            window.location.href = './home.html';
+            window.location.href = 'home.html';
         }
         else{
             alert('Wrong phone number or Pin');
